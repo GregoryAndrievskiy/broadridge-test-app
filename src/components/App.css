@@ -1,0 +1,39 @@
+body {
+  background-color: #F7F7F7;
+}
+
+#root {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#gridContainer {
+  height: calc(100vh - 122px);
+}
+
+.dx-datagrid .dx-datagrid-headers {
+  font-size: 12px;
+  line-height: 18px;
+  border-bottom: none;
+  border-top: 1px solid #ddd;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td:first-child {
+  padding-left: 20px;
+}
+
+.dx-datagrid-content .dx-datagrid-table tbody .dx-row > td,
+.dx-datagrid-content .dx-datagrid-table tbody .dx-row > tr > td {
+  font-weight: 500;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row .action {
+  padding: 0;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row + .dx-selection {
+  background-color: #EDF8FC;
+}
+
